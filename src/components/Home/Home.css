@@ -1,0 +1,17 @@
+.home-container {
+    display: flex;
+    align-items: center;
+}
+
+.title-headline {
+    text-align: center;
+}
+
+.title-description {
+    margin-left: 250px;
+    width: 60%;
+}
+
+.product-img-container {
+    margin-right: 90px;
+}
