@@ -10,7 +10,7 @@ const Home = () => {
         <div className='home-container'>
             <div className='title-container'>
                 <div className='title-details'>
-                    <h2 className='title-headline'>Welcome to Our World of Gamer's Gadgets</h2>
+                    <h4 className='title-headline'>Welcome to Our World of Gamer's Gadgets</h4>
                     <p className='title-text'>Gamer's Goodies Duniya's mission is to provide computer systems and services for businesses and individuals - systems that are state of the art, highly efficient, and reliable; service that is highly competent, dedicated, and timely.  Our ultimate objective is to be a complete support system for businesses and individuals, a support system that will empower our clients with enhanced productivity, increased competitiveness, and overall satisfaction.
                     </p>
                 </div>
@@ -19,7 +19,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='customer-reviews-container'>
-                <h2 style={{ textAlign: 'center', color: 'rgb(125, 125, 212)', marginTop: '30px' }}>Customer Reviews</h2>
+                <h3 style={{ textAlign: 'center', marginTop: '30px' }}>Customer Reviews</h3>
                 <div className='reviews'>
                     {
                         reviews.slice(0, 3).map(review => <Review

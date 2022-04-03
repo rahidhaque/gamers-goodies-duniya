@@ -1,4 +1,5 @@
 import React from 'react';
+import { Card } from 'react-bootstrap';
 import './Review.css'
 
 const Review = (props) => {
@@ -6,12 +7,18 @@ const Review = (props) => {
     const { img, name, description, rating } = review;
     return (
         <div className='review'>
-            <img src={img} alt="" />
-            <div className='reviewer-info'>
-                <p className='reviewer-name'>{name}</p>
-                <p className='reviewer-description'>{description}</p>
-                <p><small>Rating: {rating}</small></p>
-            </div>
+            <Card style={{ width: '13rem' }}>
+                <Card.Img variant="top" src={img} />
+                <Card.Body>
+                    <Card.Title>{name}</Card.Title>
+                    <Card.Text>
+                        {description}
+                    </Card.Text>
+                    <Card.Text>
+                        <small>Rating: {rating}</small>
+                    </Card.Text>
+                </Card.Body>
+            </Card>
         </div>
     );
 };
