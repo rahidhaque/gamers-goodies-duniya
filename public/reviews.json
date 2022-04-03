@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "name": "Will Smith",
+    "description": "I have recently purchased a PS5 controller from them. I have got the product at fair price and I am happy with their service.",
+    "rating": 5,
+    "img": "https://m.media-amazon.com/images/M/MV5BNTczMzk1MjU1MV5BMl5BanBnXkFtZTcwNDk2MzAyMg@@._V1_UY317_CR2,0,214,317_AL_.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Ananta Jalil",
+    "description": "They have got huge supply of gaming products that you can dream of.",
+    "rating": 5,
+    "img": "https://m.media-amazon.com/images/M/MV5BNTQyMWQ3ODEtMjJiOS00NWE2LTgyNGItODJkMGMzOTUyMGRkXkEyXkFqcGdeQXVyODYwMzA2ODY@._V1_UX214_CR0,0,214,317_AL_.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Sakib Khan",
+    "description": "Purchased RTX 3090 with perfect condition in retail price. Highly Recommended.",
+    "rating": 5,
+    "img": "https://m.media-amazon.com/images/M/MV5BYTE3ZWMyNWQtZTNhOS00MzM5LWI1MGEtM2FlODA3MjljYzY2XkEyXkFqcGdeQXVyNDg0Nzg2MTY@._V1_UY317_CR206,0,214,317_AL_.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Bradd Pitt",
+    "description": "Sick Quality Products",
+    "rating": 5,
+    "img": "https://m.media-amazon.com/images/M/MV5BMjA1MjE2MTQ2MV5BMl5BanBnXkFtZTcwMjE5MDY0Nw@@._V1_UX214_CR0,0,214,317_AL_.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Tom Holland",
+    "description": "Products are great but could be improved",
+    "rating": 4,
+    "img": "https://m.media-amazon.com/images/M/MV5BNzZiNTEyNTItYjNhMS00YjI2LWIwMWQtZmYwYTRlNjMyZTJjXkEyXkFqcGdeQXVyMTExNzQzMDE0._V1_UX214_CR0,0,214,317_AL_.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Scarlett Johansson",
+    "description": "Highly impressed with their products. Can't imagine this huge catalouge with great service",
+    "rating": 5,
+    "img": "https://m.media-amazon.com/images/M/MV5BMTM3OTUwMDYwNl5BMl5BanBnXkFtZTcwNTUyNzc3Nw@@._V1_UY317_CR23,0,214,317_AL_.jpg"
+  }
+]

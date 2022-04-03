@@ -4,10 +4,10 @@
 
 nav a {
     text-decoration: none;
-    margin-right: 10px;
-    color: green;
+    margin-right: 35px;
+    color: black;
 }
 
 nav a:hover {
-    color: darkgreen;
+    color: deepskyblue;
 }

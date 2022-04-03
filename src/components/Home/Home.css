@@ -1,17 +1,29 @@
-.home-container {
+.title-container {
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
 .title-headline {
     text-align: center;
+    color: rgb(125, 125, 212);
 }
 
-.title-description {
+.title-text {
     margin-left: 250px;
     width: 60%;
 }
 
-.product-img-container {
-    margin-right: 90px;
+
+
+.product-img-container img {
+    width: 800px;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+.reviews {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
 }
