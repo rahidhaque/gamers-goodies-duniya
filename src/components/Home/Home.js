@@ -1,4 +1,6 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 import useReviews from '../../hooks/useReviews';
 import product from '../../images/product.png'
 import Review from '../Review/Review';
@@ -6,6 +8,7 @@ import './Home.css'
 
 const Home = () => {
     const [reviews, setReviews] = useReviews();
+    let navigate = useNavigate();
     return (
         <div className='home-container'>
             <div className='title-container'>
@@ -19,7 +22,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='customer-reviews-container'>
-                <h3 style={{ textAlign: 'center', marginTop: '30px' }}>Customer Reviews</h3>
+                <h3 className='review-container-title'>Customer Reviews</h3>
                 <div className='reviews'>
                     {
                         reviews.slice(0, 3).map(review => <Review
@@ -28,6 +31,9 @@ const Home = () => {
                         >
                         </Review>)
                     }
+                </div>
+                <div className='btn-container'>
+                    <Button onClick={() => navigate("/reviews")} variant="info">Sell All Reviews</Button>
                 </div>
             </div>
         </div >

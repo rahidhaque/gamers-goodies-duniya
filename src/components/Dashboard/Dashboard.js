@@ -68,6 +68,7 @@ const Dashboard = () => {
                     <XAxis dataKey="month" />
                     <YAxis />
                     <Tooltip />
+                    <Legend />
                     <Area type="monotone" dataKey="investment" stackId="1" stroke="#8884d8" fill="#8884d8" />
                     <Area type="monotone" dataKey="revenue" stackId="1" stroke="#82ca9d" fill="#82ca9d" />
                     <text style={{ color: 'red' }} x="220" y="0" dominantBaseline="hanging" fontSize="18" fontWeight="bold" fill='rgb(95, 95, 228)'>Investment Vs Revenue</text>
@@ -96,7 +97,14 @@ const Dashboard = () => {
                     <text style={{ color: 'red' }} x="220" y="0" dominantBaseline="hanging" fontSize="18" fontWeight="bold" fill='rgb(95, 95, 228)'>Investment Vs Revenue</text>
                 </BarChart>
             </div>
-
+            <div className='pie-chart-container'>
+                <PieChart width={600} height={400}>
+                    <Tooltip />
+                    <Pie data={data} dataKey="investment" name="investment" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />
+                    <Pie data={data} dataKey="revenue" name='revenue' cx="50%" cy="50%" innerRadius={70} outerRadius={90} fill="#82ca9d" label />
+                    <text style={{ color: 'red' }} x="220" y="0" dominantBaseline="hanging" fontSize="18" fontWeight="bold" fill='rgb(95, 95, 228)'>Investment Vs Revenue</text>
+                </PieChart>
+            </div>
         </div>
     );
 };

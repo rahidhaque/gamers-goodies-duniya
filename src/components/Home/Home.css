@@ -15,16 +15,46 @@
 }
 
 
-
 .product-img-container img {
     width: 750px;
     margin-right: 180px;
     margin-top: 30px;
 }
 
+
 .reviews {
-    display: flex;
     text-align: center;
-    justify-content: space-evenly;
+
+}
+
+.review-container-title {
+    text-align: center;
     margin-top: 30px;
+}
+
+.btn-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:568px) {
+
+
+    .title-container {
+        display: block;
+        margin-top: 30px;
+    }
+
+    .title-text {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .product-img-container img {
+        width: 400px;
+        margin-right: 180px;
+        margin-top: 30px;
+    }
+
+
 }
