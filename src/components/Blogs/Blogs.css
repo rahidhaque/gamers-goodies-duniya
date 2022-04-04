@@ -3,3 +3,10 @@
     margin-left: 300px;
     margin-top: 30px;
 }
+
+@media screen and (max-width:568px) {
+    .blogs-container {
+        width: 100%;
+        margin-left: 0px;
+    }
+}

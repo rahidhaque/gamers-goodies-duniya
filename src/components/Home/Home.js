@@ -14,7 +14,7 @@ const Home = () => {
             <div className='title-container'>
                 <div className='title-details'>
                     <h4 className='title-headline'>Welcome to Our World of Gamer's Gadgets</h4>
-                    <p className='title-text'>Gamer's Goodies Duniya's mission is to provide computer systems and services for businesses and individuals - systems that are state of the art, highly efficient, and reliable; service that is highly competent, dedicated, and timely.  Our ultimate objective is to be a complete support system for businesses and individuals, a support system that will empower our clients with enhanced productivity, increased competitiveness, and overall satisfaction.
+                    <p className='title-text'>Distributing and making selective premium brands available all over Bangladesh through dealer network. We provide top notch after sales support for both our customers and retailers. We engage with gaming enthusiasts and get feedback to further improve. We here at Gamer's Goodies Duniya has been endorsing eSports from its inception.
                     </p>
                 </div>
                 <div className='product-img-container'>
