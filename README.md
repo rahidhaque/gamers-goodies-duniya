@@ -1,5 +1,5 @@
 # Gamer's Goodies Duniya 
-[Live Site Link](https://github.com/facebook/create-react-app)
+[Live Site Link](goodies-duniya-rahid.netlify.app)
 
 ## Information Regarding the Project
 
