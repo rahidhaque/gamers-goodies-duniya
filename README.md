@@ -1,5 +1,5 @@
 # Gamer's Goodies Duniya 
-[Live Site Link](goodies-duniya-rahid.netlify.app)
+[Live Site Link](https://goodies-duniya-rahid.netlify.app/)
 
 ## Information Regarding the Project
 
